@@ -1,7 +1,7 @@
 1. 创建一个服务账号(A)，并授予以下权限,如果有多个项目需要自动标记，可以将多个项目放置于组织中的某个目录下，在目录层级授予以下权限：
-Cloud SQL Editor
-Compute Instance Admin(v1)
-Pub/Sub Subscriber
+- Cloud SQL Editor
+- Compute Instance Admin(v1)
+- Pub/Sub Subscriber
 
 2. 在每个要监控的project中启用服务api
 gcloud services enable cloudasset.googleapis.com pubsub.googleapis.com cloudfunctions.googleapis.com cloudbuild.googleapis.com --project <project-id>
