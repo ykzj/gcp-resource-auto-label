@@ -3,7 +3,7 @@ Cloud SQL Editor
 Compute Instance Admin(v1)
 Pub/Sub Subscriber
 
-2. 启用服务api
+2. 在每个要监控的project中启用服务api
 gcloud services enable cloudasset.googleapis.com pubsub.googleapis.com cloudfunctions.googleapis.com cloudbuild.googleapis.com --project <project-id>
 
 gcloud services enable compute.googleapis.com container.googleapis.com storage.googleapis.com sqladmin.googleapis.com --project <project-id>
