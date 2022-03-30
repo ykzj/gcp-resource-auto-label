@@ -18,4 +18,4 @@ gcloud asset feeds describe feed-resources-<project-id> --project=<project-id>
 
 4. 部署cloud function
 
- gcloud functions deploy auto_resource_labeler --region=us-central1 --memory=128MB --runtime python38 --trigger-topic "resource-auto-label-<project-id>" --service-account="<A>@lxd-firebase.iam.gserviceaccount.com" --project <project-id>
+ gcloud functions deploy auto_resource_labeler --region=us-central1 --memory=128MB --runtime python38 --trigger-topic "resource-auto-label-<project-id>" --service-account="<A>@<project-id>.iam.gserviceaccount.com" --project <project-id>
